@@ -21,18 +21,18 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  //Start by using the RED / ORANGE light.
+  //Start by using the GREEN light.
   int i;
   for(i=0;i<=2;i++) { //Loop 3 times! LOL! :D
-  digitalWrite(8, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(8, HIGH);   // turn the GREEN LED on (HIGH is the voltage level)
   delay(100);               // on for 100 ms
-  digitalWrite(8, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(8, LOW);    // turn the GREEN LED off by making the voltage LOW
   delay(100);               // off for 100 ms
   }
   //Now turn on the orange / red light
-  digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(13, HIGH);   // turn the RED LED on (HIGH is the voltage level)
   delay(2000);               // on for two seconds
-  digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(13, LOW);    // turn the RED LED off by making the voltage LOW
   delay(1000);               // off for a second  
   //Go round..
 }
